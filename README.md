@@ -3,16 +3,17 @@ Just coming start template
 
 Simple template to start project with coming page
 
-#don't touch!
-'/core
+## Don't touch!
+' /core
 
-/assets
+## /assets folder
 assets for template
 
-##Adding new page:
+## Adding new page:
 
-###create a new Controller at /app/controllers
+#### create a new Controller at /app/controllers
 sample: file Coming.php
+```
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -27,9 +28,11 @@ class Coming extends CI_Controller {
 		$this->load->view('coming'); // without .php
 	}
 }
+```
 
-###create a new View at /app/views
+#### create a new View at /app/views
 sample: file coming.php
+```
 <!doctype html>
 <html lang="en">
 <head>
@@ -44,4 +47,4 @@ sample: file coming.php
   <script src="assets/js/scripts.js"></script>
 </body>
 </html>
-
+```
