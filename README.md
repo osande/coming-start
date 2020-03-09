@@ -13,7 +13,7 @@ assets for template
 
 #### create a new Controller at /app/controllers
 sample: file Coming.php
-```
+```php
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -32,7 +32,7 @@ class Coming extends CI_Controller {
 
 #### create a new View at /app/views
 sample: file coming.php
-```
+```html
 <!doctype html>
 <html lang="en">
 <head>
