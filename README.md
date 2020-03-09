@@ -1,5 +1,5 @@
-# coming-start
-Just coming start template
+# Template Start
+Just coming soon start template
 
 Simple template to start project with coming page
 
@@ -7,7 +7,7 @@ Simple template to start project with coming page
 ' /core
 
 ## /assets folder
-assets for template
+assets folder for template
 
 ## Adding new page:
 #### create a new Controller at /app/controllers
@@ -48,7 +48,7 @@ sample: file coming.php
 </html>
 ```
 
-# PAckages included:
+# Packages:
 #### Codeigniter [3.1.11](https://codeigniter.com/)
 #### Bootstrap [4.4.1](https://getbootstrap.com/)
 #### JQuery [3.4.1](https://jquery.com/)
