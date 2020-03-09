@@ -1,0 +1,18 @@
+<IfModule mod_setenvif.c>
+	SetEnvIf Host example\.com$ CI_ENV=production
+	SetEnvIf Host dev\.example\.com$ CI_ENV=testing
+	SetEnvIf Host example\.localhost$ CI_ENV=development
+</IfModule>
+
+# mod setenv disabled
+<IfModule !mod_setenvif.c>
+	SetEnv CI_ENV=development
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond $1 !^(index\\.php|resources|robots\\.txt)
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
