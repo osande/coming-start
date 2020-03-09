@@ -3,8 +3,8 @@ Just coming start template
 
 Simple template to start project with coming page
 
-don't touch!
-/core
+#don't touch!
+'/core
 
 /assets
 assets for template
