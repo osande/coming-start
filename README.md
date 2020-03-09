@@ -10,7 +10,6 @@ Simple template to start project with coming page
 assets for template
 
 ## Adding new page:
-
 #### create a new Controller at /app/controllers
 sample: file Coming.php
 ```php
@@ -23,10 +22,10 @@ class Coming extends CI_Controller {
         parent::__construct();
     }
 
-	public function index()
-	{
-		$this->load->view('coming'); // without .php
-	}
+    public function index()
+    {
+        $this->load->view('coming'); // without .php
+    }
 }
 ```
 
@@ -48,3 +47,8 @@ sample: file coming.php
 </body>
 </html>
 ```
+
+# PAckages included:
+#### Codeigniter [3.1.11](https://codeigniter.com/)
+#### Bootstrap [4.4.1](https://getbootstrap.com/)
+#### JQuery [3.4.1](https://jquery.com/)
