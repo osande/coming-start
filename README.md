@@ -16,14 +16,25 @@ To begin using this template, choose one of the following options to get started
 
 After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-## Don't touch!
-' /core
+### Don't touch!
+```
+/core
+```
 
-## /assets folder
-assets folder for template
+### Assets
+All assets for template
+```
+/assets
+```
+
+### Vendor
+Plugins and Components for template
+```
+/vendor
+```
 
 ## Adding new page:
-#### create a new Controller at /app/controllers
+### create a new Controller at /app/controllers
 sample: file Coming.php
 ```php
 <?php
