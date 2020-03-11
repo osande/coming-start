@@ -74,10 +74,12 @@ sample: file coming.php
 
 This template uses follow libraries/packages:
 
-* Codeigniter [3.1.11](https://codeigniter.com/)
-* Bootstrap [4.4.1](https://getbootstrap.com/)
-* JQuery [3.4.1](https://jquery.com/)
+* [Codeigniter 3.1.11](https://codeigniter.com/) - A powerful PHP framework with a very small footprint
+* [Codeigniter Modular Extensions - HMVC](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc) - Modular Extensions makes the CodeIgniter.
+* [Bootstrap 4.4.1](https://getbootstrap.com/) - The most popular HTML, CSS and JS library in the world.
+* [JQuery 3.4.1](https://jquery.com/) - Do more with less
 
 Coming Template was created by and is maintained by **[Punch-Line](http://punch-line.pt/)**.
 
-* https://osande.pt
+* A company by [Osande Corp.](https://osande.pt)
+
