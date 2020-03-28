@@ -11,8 +11,12 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
 #codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+app/logs/*
+!app/logs/index.html
+!app/logs/.htaccess
 /vendor/
-/nbproject/private/
+
+#editores
+nbproject/
+.vscode/
+
