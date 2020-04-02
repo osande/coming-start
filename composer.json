@@ -1,0 +1,43 @@
+{
+    "name": "owesome/elico",
+    "authors": [
+        {
+            "name": "José Proença",
+            "email": "jose.proenca@owesome.pt"
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^4.4",
+        "components/font-awesome": "^5.12",
+        "almasaeed2010/adminlte": "~3.0",
+        "dimsemenov/magnific-popup": "^1.1"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "rm -rf public_html\\assets\\vendor",
+            "mkdir public_html\\assets\\vendor\\bootstrap",
+            "cp -R vendor\\components\\bootstrap\\css public_html\\assets\\vendor\\bootstrap",
+            "cp -R vendor\\components\\bootstrap\\js public_html\\assets\\vendor\\bootstrap",
+
+            "mkdir public_html\\assets\\vendor\\jquery",
+            "cp -R vendor\\components\\jquery\\jquery.min.js public_html\\assets\\vendor\\jquery\\jquery.min.js",
+            "cp -R vendor\\components\\jquery\\jquery.slim.min.js public_html\\assets\\vendor\\jquery\\jquery.slim.min.js",
+            
+            "mkdir public_html\\assets\\vendor\\font-awesome",
+            "cp -R vendor\\components\\font-awesome\\css public_html\\assets\\vendor\\font-awesome",
+            "cp -R vendor\\components\\font-awesome\\webfonts public_html\\assets\\vendor\\font-awesome",
+            
+            "mkdir public_html\\assets\\vendor\\adminlte",
+            "cp -R vendor\\almasaeed2010\\adminlte\\dist\\css public_html\\assets\\vendor\\adminlte",
+            "cp -R vendor\\almasaeed2010\\adminlte\\dist\\js public_html\\assets\\vendor\\adminlte",
+            
+            "mkdir public_html\\assets\\vendor\\icheck-bootstrap",
+            "cp -R vendor\\almasaeed2010\\adminlte\\plugins\\icheck-bootstrap public_html\\assets\\vendor",
+            
+            "mkdir public_html\\assets\\vendor\\magnific-popup",
+            "cp -R vendor\\dimsemenov\\magnific-popup\\dist\\* public_html\\assets\\vendor\\magnific-popup"
+
+        ]
+    }
+}
+
