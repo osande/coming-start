@@ -7,11 +7,6 @@
 
 composer.lock
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-
 #codeigniter 3
 /vendor/
 /public_html/vendor/
@@ -20,4 +15,3 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 #editores
 nbproject/
 .vscode/
-
