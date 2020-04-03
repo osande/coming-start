@@ -5,16 +5,20 @@
 !*/cache/index.html
 !*/cache/.htaccess
 
+composer.lock
+
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
 #codeigniter 3
-app/logs/*
-!app/logs/index.html
-!app/logs/.htaccess
+*/logs/*
+!*/app/logs/index.html
+!*/app/logs/.htaccess
 /vendor/
+/public/app/assets/vendor/
+/public_html/assets/
 
 #editores
 nbproject/

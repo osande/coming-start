@@ -6,7 +6,34 @@
             "email": "jose.proenca@owesome.pt"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "components/jquery-touchswipe",
+                "version": "1.6.19",
+                "source": {
+                    "url": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }, {
+            "type": "package",
+            "package": {
+                "name": "components/jquery.easing",
+                "version": "1.4",
+                "source": {
+                    "url": "https://github.com/gdsmith/jquery.easing.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
+        "components/jquery-touchswipe": "^1",
+        "components/jquery.easing": "^1",
         "components/bootstrap": "^4.4",
         "components/font-awesome": "^5.12",
         "almasaeed2010/adminlte": "~3.0",
@@ -22,22 +49,28 @@
             "mkdir public_html\\assets\\vendor\\jquery",
             "cp -R vendor\\components\\jquery\\jquery.min.js public_html\\assets\\vendor\\jquery\\jquery.min.js",
             "cp -R vendor\\components\\jquery\\jquery.slim.min.js public_html\\assets\\vendor\\jquery\\jquery.slim.min.js",
-            
+
             "mkdir public_html\\assets\\vendor\\font-awesome",
             "cp -R vendor\\components\\font-awesome\\css public_html\\assets\\vendor\\font-awesome",
             "cp -R vendor\\components\\font-awesome\\webfonts public_html\\assets\\vendor\\font-awesome",
-            
+
             "mkdir public_html\\assets\\vendor\\adminlte",
             "cp -R vendor\\almasaeed2010\\adminlte\\dist\\css public_html\\assets\\vendor\\adminlte",
             "cp -R vendor\\almasaeed2010\\adminlte\\dist\\js public_html\\assets\\vendor\\adminlte",
-            
+
             "mkdir public_html\\assets\\vendor\\icheck-bootstrap",
             "cp -R vendor\\almasaeed2010\\adminlte\\plugins\\icheck-bootstrap public_html\\assets\\vendor",
-            
+
             "mkdir public_html\\assets\\vendor\\magnific-popup",
-            "cp -R vendor\\dimsemenov\\magnific-popup\\dist\\* public_html\\assets\\vendor\\magnific-popup"
+            "cp vendor\\dimsemenov\\magnific-popup\\dist\\jquery.magnific-popup.min.js public_html\\assets\\vendor\\magnific-popup\\",
+            "cp vendor\\dimsemenov\\magnific-popup\\dist\\magnific-popup.css public_html\\assets\\vendor\\magnific-popup\\"
 
         ]
     }
 }
+
+
+
+
+
 
