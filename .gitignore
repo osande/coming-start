@@ -13,12 +13,9 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
 #codeigniter 3
-*/logs/*
-!*/app/logs/index.html
-!*/app/logs/.htaccess
 /vendor/
 /public/app/assets/vendor/
-/public_html/assets/
+/public_html/assets/*
 
 #editores
 nbproject/
